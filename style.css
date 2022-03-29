@@ -1,0 +1,124 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.container{
+	border: 1px;
+	width: 800px;
+	margin: 0px auto;
+
+}
+
+*{
+	border: 1px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#banner h1{
+	color:  deeppink;
+	background: white;
+	color: deeppink;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+.profile-circle{
+	width: 75%;
+	border-radius: 75%;
+	}
+
+
+#box-style{
+	background: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+}
+
+body{
+	background: #FFD6EB;
+	text-align: center;
+	font-family: 'Sen', sans-serif;
+}
+
+h1{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 30px;
+	font-weight: 100;
+}
+
+img{
+	width: 25%;
+	border-radius: 0px;
+}
+
+.button {
+	background: lightpink;
+	color: black;
+	font-size: 20px;
+	text-emphasis: none;
+	padding: 11px 24px;
+	margin: 10px;
+	width: 250px;
+	border-radius: 15px;
+	margin: 15px auto;
+}
+
+.button:hover{
+	background: hotpink;
+	color: hotpink;
+}
+
+p{
+	margin: 2px 0px;
+	font-size: 22px;
+}
+
+ul{
+	display: in-line flex;
+}
+
+li{
+	list-style: none;
+	display: inline;
+	padding: 0px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: hotpink;
+	margin: 20px;
+}
+
+
+i:hover{
+	color: black;
+}
+
+
+@media (max-width:  720px){
+	.container{
+		width: 500px;
+	}
+	.button{
+		width: 200px;
+	}
+
+@media (max-width:  550px){
+	.container{
+		width: 300;
+	}
+}
+
